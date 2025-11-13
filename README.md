@@ -16,7 +16,6 @@ With the increasing exposure of children to the internet, parents face significa
 - **Real-time website safety scanning** using AI
 - **Parent monitoring dashboards** to track children's online activity
 - **Intelligent chatbot guidance** for parents on digital safety best practices
-- **Multi-device support** across Windows, macOS, Android, and iOS
 
 ### Current Status & Future Vision
 
