@@ -25,13 +25,16 @@ const steps = [
 
 export function HowItWorks() {
   return (
-    <section id="how-it-works" className="py-20 md:py-32">
+    <section
+      id="how-it-works"
+      className="py-20 md:py-32 bg-gradient-to-br from-emerald-900 via-teal-950 to-emerald-950"
+    >
       <div className="container mx-auto px-4 md:px-6">
         <div className="mx-auto max-w-2xl text-center mb-16">
-          <h2 className="text-3xl font-bold tracking-tight text-foreground md:text-5xl mb-4 text-balance">
+          <h2 className="text-3xl font-bold tracking-tight text-white md:text-5xl mb-4 text-balance">
             Get started in minutes
           </h2>
-          <p className="text-lg text-muted-foreground text-balance">
+          <p className="text-lg text-emerald-100 text-balance">
             Simple setup process that works seamlessly across all your family's devices.
           </p>
         </div>
@@ -39,19 +42,19 @@ export function HowItWorks() {
         <div className="grid gap-12 md:grid-cols-3">
           {steps.map((step, index) => (
             <div key={index} className="relative">
-              <div className="mb-6 inline-flex h-16 w-16 items-center justify-center rounded-2xl bg-primary text-primary-foreground text-2xl font-bold">
+              <div className="mb-6 inline-flex h-16 w-16 items-center justify-center rounded-2xl bg-teal-600 text-white text-2xl font-bold">
                 {step.number}
               </div>
 
-              <div className="mb-4 inline-flex items-center justify-center rounded-lg bg-secondary p-3">
-                <step.icon className="h-6 w-6 text-primary" />
+              <div className="mb-4 inline-flex items-center justify-center rounded-lg bg-teal-800/50 p-3">
+                <step.icon className="h-6 w-6 text-teal-300" />
               </div>
 
-              <h3 className="mb-3 text-2xl font-semibold text-foreground">{step.title}</h3>
-              <p className="text-muted-foreground leading-relaxed">{step.description}</p>
+              <h3 className="mb-3 text-2xl font-semibold text-white">{step.title}</h3>
+              <p className="text-emerald-200 leading-relaxed">{step.description}</p>
 
               {index < steps.length - 1 && (
-                <div className="absolute top-8 left-[calc(100%+1rem)] hidden h-0.5 w-[calc(100%-2rem)] bg-border md:block lg:left-[calc(100%+2rem)]" />
+                <div className="absolute top-8 left-[calc(100%+1rem)] hidden h-0.5 w-[calc(100%-2rem)] bg-teal-700 md:block lg:left-[calc(100%+2rem)]" />
               )}
             </div>
           ))}
