@@ -52,9 +52,7 @@ export function DashboardHeader({ user }: DashboardHeaderProps) {
       <div className="container mx-auto px-6 max-w-7xl">
         <div className="flex h-16 items-center justify-between gap-4">
           <div className="flex items-center gap-8">
-            <Link href="/dashboard" className="text-xl font-bold text-primary">
-              SacredEyes
-            </Link>
+           
 
             <nav className="hidden md:flex items-center gap-1">
               <Button variant="ghost" size="sm" className="text-muted-foreground hover:text-foreground" asChild>
