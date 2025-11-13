@@ -1,4 +1,4 @@
-# SacredEyes - Child Safety Website
+# SacredEyes - Child Safety Website - A McClosekey Project
 
 *Built with [v0.app](https://v0.app) by Vercel*
 
