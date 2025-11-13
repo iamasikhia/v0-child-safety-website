@@ -13,7 +13,7 @@ export function Hero() {
             <div className="text-center lg:text-left">
               <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-secondary px-4 py-2 text-sm font-medium text-secondary-foreground">
                 <ShieldCheck className="h-4 w-4" />
-                Trusted by 50,000+ families worldwide
+                Join Thounsands of Families Worldwide
               </div>
 
               <h1 className="mb-6 text-4xl font-bold tracking-tight text-foreground md:text-6xl lg:text-7xl text-balance">
