@@ -6,6 +6,7 @@ import { Testimonials } from "@/components/testimonials"
 import { Pricing } from "@/components/pricing"
 import { CTA } from "@/components/cta"
 import { Footer } from "@/components/footer"
+import { ParentChatbot } from "@/components/parent-chatbot"
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <CTA />
       </main>
       <Footer />
+      <ParentChatbot />
     </div>
   )
 }
