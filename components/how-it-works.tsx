@@ -41,7 +41,7 @@ export function HowItWorks() {
 
         <div className="grid gap-12 md:grid-cols-3">
           {steps.map((step, index) => (
-            <div key={index} className="relative">
+            <div key={index}>
               <div className="mb-6 inline-flex h-16 w-16 items-center justify-center rounded-2xl bg-teal-600 text-white text-2xl font-bold">
                 {step.number}
               </div>
@@ -52,10 +52,6 @@ export function HowItWorks() {
 
               <h3 className="mb-3 text-2xl font-semibold text-white">{step.title}</h3>
               <p className="text-emerald-200 leading-relaxed">{step.description}</p>
-
-              {index < steps.length - 1 && (
-                <div className="absolute top-8 left-[calc(100%+1rem)] hidden h-0.5 w-[calc(100%-2rem)] bg-teal-700 md:block lg:left-[calc(100%+2rem)]" />
-              )}
             </div>
           ))}
         </div>
